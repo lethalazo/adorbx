@@ -1,0 +1,200 @@
+<!-- /***************************************************************************/
+/*                                                                         */
+/*  COPYRIGHTED CODE (13,4 AS STATED IN LICENCE.MD)                       .*/
+/*  XZ ORGANIZATION AND ARSALAN AZMI 2016 LICENCED SOURCE                  */
+/*  ARXIZ STUDIOS ALL RIGHTS RESERVED                                      */
+/*                                                                         */
+/***************************************************************************/ -->
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Adorbx</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="designcode/xz_adorbx.css" type="text/css" />
+    <link rel="stylesheet" href="designcode/xz_animate.css" type="text/css" />
+    <link rel="stylesheet" href="designcode/adorbx_jqui.css" type="text/css" />
+    <link rel="icon" href="dump/drawable/favicon.png" />
+    <meta charset="utf-8" />
+    <meta name="description" content="" />
+    <meta http-equiv="author" content="Arsalan Azmi" />
+    <meta name="robots" content="nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <script src="functioncode/xz_jq.js"></script>
+    <script src="functioncode/xz_jqui.js"></script>
+    <script src="functioncode/adorbx_index.js"></script>
+    <script src="functioncode/xz_v2p.js"></script>
+    <script src="romx86/init-dev.js"></script>
+    <script src="functioncode/xz_fc.js"></script>
+    <script src="cordova.js"></script>
+    <script src="functioncode/xz_adorbx.js"></script>
+    <script>
+
+        var now = new Date().getTime();
+
+        function onDeviceReadyInit() {
+            console.log(cordova.plugins.clipboard);
+            console.log(window.plugins.toast);
+            console.log(window.plugins.socialsharing);
+            console.log(navigator.notification);
+            console.log(pollfishplugin);
+            if (navigator.geolocation) {
+                var geolocation = navigator.geolocation.getCurrentPosition(onSuccess3, onError3, watchOptions);
+            } else {
+                alert("Turn Location Services On");
+            }
+        }
+        function onSuccess3(position) {
+            var x = position.coords.latitude;
+            var y = position.coords.longitude;
+            getWeather(x, y);
+        }
+
+        function onError3() {
+            document.getElementById("reloadmeme").style.display = "block";
+            document.getElementById("mylocation").innerHTML = "Enable GPS And Check Internet Connection";
+            document.getElementById("ShareLocation").style.display = "none ";
+            $('#description').text("...");
+            $('#temp').text("Enable GPS");
+            $('#visibility').text("Tap To Enable GPS");
+            $('#kyahai').attr("src", "dump/drawable/wthr.png");
+        }
+        var image64;
+        toDataURL(img_url, function(dataUrl) {
+            image64 = dataUrl;
+        })
+        document.addEventListener("deviceready", onDeviceReadyInit, false);
+            document.addEventListener("backbutton", initialize, false);
+    </script>
+    <link rel="stylesheet" href="designcode/swiper.min.css" type="text/css" />
+
+</head>
+
+<body>
+<div id="toHide">
+    <center>
+        <div id="main">
+            <br>
+    </center>
+    <div style="font-weight: lighter; margin-left: 5%">
+        <h1 style="margin-top: 1px; font-weight: bold;">Today,</h1>
+        <h2 style="margin-top: -10px; font-weight: lighter;" id="todayDate"></h2>
+    </div>
+    <center>
+        <div id="search">
+            <div id="gona4">
+                <input class="searchform cf" name="inputText" onblur="comeback()" onfocus="goup()" onclick="goup()" type="search" id="inputText" size="40" placeholder="Encrypted search...">
+                <br>
+            </div>
+            <br>
+            <div id="weather" onclick="weatherLoad()">
+                <img id="kyahai" src="dump/drawable/wthr.svg" style="stroke: white; stroke-width: 1px; stroke-linejoin: round; height: 10vh; min-height: 80px; max-height: 250px; float: left; clear: right, left;">
+                <h1 id="temp" style="font-size: 29px; margin-top: -1vh; float: right;">Loading</h1><br>
+                <br>
+                <h3 id="visibility" style="font-size: 12px; color: #fefefe; margin-top: -5px;clear: right; float: right;">
+                    Requires GPS & Internet</h3>
+                <h2 style="font-size: 14px; margin-top: 0px;clear: right; float: right;" id="description">Tap To Retry</h2>
+            </div>
+        </div>
+        <div id="navbar">
+            <div id="social" style="display:block; padding: 5%;background: -moz-linear-gradient(45deg, #c61313 0%, #ff7c7c 100%); background: -moz-linear-gradient(left, #ff2327 0%, #a90329 0%, #ff5151 44%, #7700a3 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #ff2327 0%,#a90329 0%,#ff5151 44%,#7700a3 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #ff2327 0%,#a90329 0%,#ff5151 44%,#7700a3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */">
+                <h3 style="color: white; text-align: center; margin-top: 2.65px; margin-bottom: 10px;">Social Hub</h3>
+                <img onClick="instagram()" id="image1" src="dump/drawable/favicon1.png" alt="Instagram">
+                <img onClick="facebook()" id="image2" src="dump/drawable/favicon2.png" alt="Facebook">
+                <img onClick="youtube()" id="image3" src="dump/drawable/favicon3.png" alt="YouTube">
+                <img onClick="twitter()" id="image4" src="dump/drawable/favicon4.png" alt="Twitter">
+            </div>
+            <br />
+            <div id="inner">
+                <div id="inner1" onClick="gamingCloud()" style="display: inline-block; width: 13.5%; max-width: 402px;padding: 5%; max-height: 150px;min-width: 120px; min-height: 105px;">
+                    <img id="console" width="90px" src="dump/drawable/console.png" alt="Gaming"><br><h3 style="color: white;">Games</h3>
+                </div>
+                <div id="inner2" onClick="showGona3()" style="display: inline-block; width: 13.5%; max-width: 402px;padding: 5%; max-height: 150px;min-width: 120px; min-height: 105px;">
+                    <img id="newsPaper" width="90px" src="dump/drawable/newspaper.png" alt="News"><br><h3 style="color: white;">News</h3>
+                </div>
+                <!--                     <img class="Abtn2" onClick="gamingCloud()" src="dump/drawable/gamings.png" alt="Gaming" id="gameplay">
+                                    <img class="Abtn2" id="down2" onClick="showGona3()" src="dump/drawable/down2.png"> -->
+            </div>
+        </div>
+</div>
+<div id="newsWrap" style="display: none;">
+    <div id="gona3" style="margin-top: 15px">
+        </center>
+        <h1 id="newstexttex" style="text-shadow: 4px 4px 4px #dbdbdb; margin-left: 5%; font-weight: bold; background: -moz-linear-gradient(left, #7200bf 1%, #ed00c9 48%, #e22d2d 96%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #7200bf 1%,#ed00c9 48%,#e22d2d 96%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #7200bf 1%,#ed00c9 48%,#e22d2d 96%);
+ /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ 
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ display: inline; vertical-align: middle;">News</h1><br>
+        <h3 style="margin-left: 5%; margin-top: 3px; font-weight: lighter; color: black;">Swipe and tap on a category.</h3>
+        <center>
+            <div class="swiper-container">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">
+                        <img src="dump/drawable/world.png" class="technewsdivloc" id="Wloc" onClick="loc0()"> <br />
+                        <h3>World</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="dump/drawable/tech.png" class="technewsdivloc" id="Tloc" onClick="loc1()"> <br />
+                        <h3>Technology</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="dump/drawable/sports.png" class="technewsdivloc" id="Sloc" onClick="loc3()"> <br />
+                        <h3>Sports</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="dump/drawable/entertainment.png" class="technewsdivloc" id="Eloc" onClick="loc2()"> <br />
+                        <h3>Entertainment</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="dump/drawable/sci.png" class="technewsdivloc" id="Scloc" onClick="loc4()"><br/>
+                        <h3>Business</h3>
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="dump/drawable/game.png" class="technewsdivloc" id="Gloc" onClick="loc5()"><br />
+                        <h3>Gaming</h3>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+    </div>
+</div>
+</div>
+</center>
+<script src="functioncode/swiper.min.js"></script>
+</body>
+<script type="text/javascript">
+    if (navigator.connection.type === Connection.NONE) {
+        document.getElementById("reloadmeme").style.display = "block";
+        document.getElementById("mylocation").innerHTML = "No Internet Connection";
+        document.getElementById("ShareLocation").style.display = "none";
+        $('#description').text("...");
+        $('#temp').text("No Internet");
+        $('#visibility').text("Cannot Load Weather");
+        $('#kyahai').attr("src", "dump/drawable/wthr.png");
+    } else {
+        navigatior.geolocation.getCurrentPosition(function(position) {}, function(error) {
+            $('#description').text("...");
+            $('#temp').text("Enable GPS");
+            $('#visibility').text("Tap To Enable GPS");
+            $('#kyahai').attr("src", "dump/drawable/wthr.png");
+        });
+    }
+</script>
+
+</html>

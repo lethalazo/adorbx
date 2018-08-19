@@ -1,0 +1,836 @@
+#inputText,
+* {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+@-ms-viewport {
+    width: 100vw;
+    zoom: 100%;
+}
+
+@-o-viewport {
+    width: 100vw;
+    zoom: 100%;
+}
+
+@viewport {
+    width: 100vw;
+    zoom: 100%;
+}
+
+@-ms-viewport {
+    user-zoom: fixed;
+}
+
+@viewport {
+    user-zoom: fixed;
+}
+
+#ShareLocation {
+    display: none;
+    color: sandybrown;
+}
+
+h3 {
+    color: #573000;
+}
+
+#wave {
+    font-size: 15px;
+    color: coral;
+}
+
+#h1 {
+    position: fixed;
+    top: 0;
+    bottom: 100;
+    left: 0;
+    right: 0;
+    color: indianred;
+}
+
+#h2 {
+    box-shadow: -2px 4px 10px lightgrey;
+    border: 3px blueviolet solid;
+    border-radius: 15px;
+    width: 250px;
+    vertical-align: middle;
+    position: fixed;
+    top: 100;
+    bottom: 0;
+    left: 50%;
+    right: -50%;
+    margin-left: -125px;
+    color: blueviolet;
+}
+
+#h2:active {
+    border: none;
+    color: white;
+    background-color: blueviolet;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+#tut {
+    display: none;
+}
+
+#a {
+    color: orange;
+}
+
+#img {
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+}
+
+#click {
+    overflow: hidden;
+}
+
+.ui-helper-hidden-accessible {
+    display: none;
+}
+
+#inputText,
+#weather,
+#inner1,
+#inner2,
+#social {
+    border-radius: 8px;
+    background-color: #fff
+}
+
+.cf:after,
+.cf:before {
+    content: "";
+    display: table
+}
+
+.cf:after {
+    clear: both
+}
+
+* {
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    font-family: ubuntul
+}
+
+@media (max-width:250px) {
+    #description {
+        font-size: 10px
+    }
+}
+
+@-webkit-keyframes rotate {
+    from {
+        -webkit-transform: rotate(0)
+    }
+    to {
+        -webkit-transform: rotate(360deg)
+    }
+}
+
+#mapholder {
+    box-shadow: 0 8px 20px 0 #dbdbdb;
+    -webkit-transition: 0s;
+    transition: 0s;
+    height: 280px;
+    width: 280px;
+    overflow: hidden;
+    display: none;
+    border-radius: 20px
+}
+
+#class1,
+#inputText,
+#technews1,
+#technews2,
+#technews3,
+#technews4,
+#technews5,
+#technews6,
+#social,
+#weather {
+    -webkit-box-shadow: 0px 8px 20px 0 #dbdbdb;
+}
+#inner2{
+    -webkit-box-shadow: 8px 8px 20px 0 #dbdbdb;
+background: -moz-linear-gradient(left, #7624bf 0%, #ba39db 74%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #7624bf 0%,#ba39db 74%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #7624bf 0%,#ba39db 74%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */  
+}
+#inner1{
+        -webkit-box-shadow: 8px 8px 20px 0 #dbdbdb;
+background: -moz-linear-gradient(left, #3b9be5 26%, #402def 86%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #3b9be5 26%,#402def 86%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #3b9be5 26%,#402def 86%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */    
+-webkit-box-shadow: -8px 8px 20px 0 #dbdbdb;
+
+}
+#inner{
+    width: 100%;
+}
+#social {
+    max-width: 404px;
+    padding: 5%;
+    width: 80%;
+    max-height: 150px;
+    min-height: 105px;
+    height: 12vh;
+}
+
+body {
+    background-color: #fcfcfc;
+}
+
+#mylocation2 {
+    color: #dc143c
+}
+
+#temp {
+    color: white;
+}
+
+#wind {
+    color: #f1f1f1;
+}
+
+#description {
+    color: #f5f5f5;
+}
+
+body,
+html {
+    -webkit-transition: 0s;
+    transition: 0s;
+    max-width: 100%;
+    max-height: 100%
+}
+
+#bhutta {
+    width: 350px;
+    height: 375px
+}
+
+#weather {
+background: -moz-linear-gradient(-45deg, #fff09e 0%, #ff8c00 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(-45deg, #fff09e 0%,#ff8c00 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(135deg, #fff09e 0%,#ff8c00 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    -webkit-animation: bounceIn 1s linear;
+    animation: bounceIn 1s linear;
+    max-width: 404px;
+    margin-bottom: 3vh;
+    padding: 5%;
+    width: 80%;
+    max-height: 150px;
+    min-height: 105px;
+    height: 12vh
+}
+
+@font-face {
+    src: url(fonts/Ubuntu-M.ttf);
+    font-family: ubuntu
+}
+
+@font-face {
+    src: url(fonts/Ubuntu-L.ttf);
+    font-family: ubuntul
+}
+
+#mainlogo {
+    -webkit-animation: flipInY 1s linear;
+    animation: flipInY 1s linear;
+    width: 50%;
+    margin-top: 5px;
+    margin-bottom: -10px;
+    max-width: 268px
+}
+
+.swiper-container {
+    width: 256px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 50px;
+    background-color: #fcfcfc;
+}
+
+.swiper-slide {
+    border-radius: 100%;
+    background-position: center;
+    background-size: cover;
+    width: 128px;
+    height: 128px;
+}
+
+.ui-autocomplete-term {
+    font-weight: 700;
+    color: darkgrey
+}
+
+#Gloc,
+#newsbox3,
+#technewsdiv3 {
+    color: #ff8c00
+}
+
+#inputText {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: black;
+    font-size: 14px;
+    width: 90%;
+    margin: 0 auto;
+    max-height: 46.76px;
+    padding: 5px 5px 5px 10px;
+    height: 7vh;
+    min-height: 46px;
+    border: none
+}
+
+#newsbox1,
+hr {
+    -webkit-transition: 0s
+}
+
+.technewsdivloc {
+    margin: 2px;
+    width: 128px;
+}
+
+#gona3 {
+    display: block;
+}
+#gona2{
+    display:  none;
+}
+.clear {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    margin-left: 2px
+}
+
+#socialpop {
+    transition: 1s;
+    -webkit-animation: fadeInDown 0.15s linear;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-box-shadow: 0 0 40px #c1b399;
+}
+
+#image1,
+#image2,
+#image3,
+#image4,{
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+}
+
+.arrow_box {
+    position: relative;
+    background: #fff;
+    width: 220px;
+    border-radius: 25px;
+    padding: 10px
+}
+
+.arrow_box:after,
+.arrow_box:before {
+    top: 100%;
+    left: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none
+}
+
+.arrow_box:after {
+    border-top-color: #fff;
+    border-width: 30px;
+    margin-left: -30px
+}
+
+.arrow_box:before {
+    border-width: 36px;
+    margin-left: -36px
+}
+
+#news {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 0;
+    background-color: transparent;
+    border: none
+}
+
+#image1,
+#image2,
+#image3,
+#image4 {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid white;
+    border-radius:  100%;
+    background-color: #fff;
+    margin: 5px;
+    z-index: 919191919191919;
+    width:  15%;
+}
+
+.technews,
+.technewsdivloc {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden
+}
+
+hr {
+    -webkit-transition: 0s;
+    transition: 0s;
+    width: 75%
+}
+
+#newsbox1 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #cd5c5c
+}
+
+#newsbox2,
+#newsbox3 {
+    -webkit-transition: 0s
+}
+
+#newsbox2 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #1e90ff
+}
+
+#newsbox3 {
+    -webkit-transition: 0s;
+    transition: 0s
+}
+
+#newsbox4,
+#newsbox5 {
+    -webkit-transition: 0s
+}
+
+#newsbox4 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #9400d3
+}
+
+#newsbox5 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: coral
+}
+
+#newsbox6 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #db7093
+}
+
+.technewsdivloc {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 100%
+}
+
+#technewsdiv1 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #cd5c5c
+}
+
+#technewsdiv2,
+#technewsdiv3 {
+    display: none;
+    -webkit-transition: 0s
+}
+
+#technewsdiv2 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #1e90ff
+}
+
+#technewsdiv3 {
+    -webkit-transition: 0s;
+    transition: 0s
+}
+
+#technewsdiv4,
+#technewsdiv5 {
+    -webkit-transition: 0s;
+    display: none
+}
+
+#technewsdiv4 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #9400d3
+}
+
+#technewsdiv5 {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: coral
+}
+
+#technewsdiv6,
+a {
+    -webkit-transition: 0s
+}
+
+#technewsdiv6 {
+    display: none;
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #db7093
+}
+
+#class1,
+.Abtn1 {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex
+}
+
+#technews4 {
+    -webkit-height: 82vh;
+    height: 82vh
+}
+
+#technews1 {
+    -webkit-height: 82vh;
+    height: 82vh
+}
+
+a {
+    -webkit-transition: 0s;
+    transition: 0s;
+    text-decoration: none
+}
+
+#mylocation,
+#try {
+    -webkit-transition: 0s
+}
+
+#mylocation {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #22b2f0
+}
+
+#try {
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: #00bfff
+}
+
+#newstexttex {
+    margin-top: -50px;
+    -webkit-transition: 0s;
+    transition: 0s;
+    color: green;
+    margin-bottom: -.1px
+}
+
+iframe {
+    background-color: none;
+    border: none
+}
+
+.technews {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 0s;
+    transition: 0s;
+    -webkit-height: 80vh;
+    height: 80vh;
+    width: 90%;
+}
+
+.Abtn1,
+.Abtn1l,
+.technewsdiv {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden
+}
+
+.technewsdiv {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow-y: hidden;
+    -webkit-transition: 0s;
+    transition: 0s;
+    margin-bottom: 4%;
+    border-radius: 20px;
+    -webkit-height: 71vh;
+    height: 71vh;
+    width: 92%
+}
+
+#addButtonList {
+    margin-right: -5px
+}
+
+#extrawale {
+    border: none;
+    box-shadow: none;
+    background: none;
+    height: 60px;
+    visibility: hidden;
+    position: absolute;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transform: scale(1, 0);
+    opacity: 0;
+}
+
+.Abtn1,
+.Abtn1l {
+    box-shadow: 0 0 20px rgba(20, 20, 20, .3);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 0;
+    border-radius: 15px;
+    height: 0
+}
+
+.Abtn1 {
+    width: 0;
+    height: 0
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.container {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.content {
+    background-color: red;
+    /* just for the demo */
+    display: inline-block;
+    text-align: left;
+}
+
+#reloadmeme {
+    margin-top: 30px;
+    width: 30%;
+    color: white;
+    background-color: rgb(1, 170, 242);
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+#class1 {
+    color: #fff;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    min-height: 29.69px;
+    font-size: 0;
+    background-color: #79bd9a
+}
+
+#class2,
+#class3 {
+    -webkit-box-shadow: 0 8px 20px 0 #dbdbdb;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    min-height: 29.69px;
+    color: #fff;
+    font-size: 0
+}
+
+#class2 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #1ec0ff
+}
+
+#class3 {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fe4365
+}
+
+.Abtn2 {
+    interpolation-mode: bicubic;
+    box-shadow: 0 0 20px rgba(20, 20, 20, .3);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    width: 17%;
+    border: rgb(253, 250, 244) 3px solid;
+    border-radius: 100%;
+    height: 17%;
+    max-width: 87.45px;
+    max-height: 87.45px
+}
+
+.Abtn1:active,
+.Abtn1l:active,
+.Abtn2:active,
+.Abtn3:active .clear:active,
+.technewsdivloc:active {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    box-shadow: -2px 2px 3px #d3d3d3;
+}
+
+#search,
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    -webkit-transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden
+}
+
+#inputText:focus,
+#inputText:focus+#weather {
+        -webkit-box-shadow: 0 8px 20px 0 #bababa;
+}
+
+#ui-id-1 {
+    margin-top: 30px
+}
+
+iframe {
+    display: none;
+}
+
+#search {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 0s;
+    transition: 0s
+}
+
+button:focus,
+input:focus,
+select:focus,
+textarea:focus {
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    outline: 0
+}
+
+#inputText:focus {
+    font-size: 18px;
+    border-radius: 10px 10px 0 0;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+#Eloc {
+    color: red
+}
+
+#Scloc {
+    color: green
+}
+
+#Tloc {
+    color: #c71585
+}
+
+#Sloc {
+    color: #6495ed
+}
+
+#tip {
+    font-size: 0px;
+}
+
+#tip {
+    color: #b7a79c;
+}
