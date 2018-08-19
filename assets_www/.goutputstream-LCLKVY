@@ -1,0 +1,320 @@
+<!-- /***************************************************************************/
+/*                                                                         */
+/*  COPYRIGHTED CODE (13,4 AS STATED IN LICENCE.MD)                       .*/
+/*  XZ ORGANIZATION AND ARSALAN AZMI 2016 LICENCED SOURCE                  */
+/*  ARXIZ STUDIOS ALL RIGHTS RESERVED                                      */
+/*                                                                         */
+/***************************************************************************/ -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adorbx</title>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="designcode/xz_adorbx.css" type="text/css" />
+    <link rel="stylesheet" href="designcode/xz_animate.css" type="text/css" />
+<link rel="stylesheet" href="designcode/adorbx_jqui.css" type="text/css" />
+    <link rel="icon" href="dump/drawable/favicon.png" />
+    <meta charset="utf-8" />
+    <meta name="description"
+        content="" />
+    <meta http-equiv="author"
+        content="Arsalan Azmi" />
+    <meta name="robots"
+        content="nofollow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+        @-ms-viewport { width: 100vw ; zoom: 100% ; }  @viewport { width: 100vw ; zoom: 100% ; }
+        @-ms-viewport { user-zoom: fixed ; }           @viewport { user-zoom: fixed ; }
+
+        #ShareLocation{
+            display: none;
+            color: sandybrown;
+        }
+        #wave{
+            font-size: 15px;
+            color:coral;
+    }
+        #h1{
+            position: fixed;
+            top: 0;
+            bottom: 100;
+            left: 0;
+            right: 0;
+            color: indianred;
+        }
+        #h2{
+            box-shadow: -2px 4px 10px lightgrey;
+            border: 3px blueviolet solid;
+            border-radius: 15px;
+            width: 250px;
+            vertical-align: middle;
+            position: fixed;
+            top: 100;
+            bottom: 0;
+            left: 50%;
+            right: -50%;
+            margin-left: -125px;
+            color: blueviolet;
+            transition: 500ms;
+        }#h2:active{
+            border: none;
+            color: white;
+            background-color: blueviolet;
+            transition: 500ms;
+            box-shadow:none;
+            text-shadow: none;
+        }
+        #tut{
+            display: none;
+        }
+        #video{
+            width: 100%;
+height: 300px;
+
+position: absolute;
+top: 50%;
+bottom: -50%;
+left: 50%;
+right: -50%;
+
+margin-left: -50%; /* width divided by 2 */
+margin-top: -150px; /* height divided by 2 */
+            border: 0.3px lightgrey solid;
+            border-radius: 10px;
+            box-shadow: -2px 4px 10px lightgrey;
+        }
+        #a{
+            color: orange;
+        }
+        #img{
+            margin-top: 5px;
+            margin-left: 5px;
+            border-radius: 100%;
+            width: 30px;
+            height: 30px;
+        }
+        #click{
+            overflow: hidden;
+        }
+        .ui-helper-hidden-accessible{
+            display: none;
+        }
+    </style>
+    <script src="functioncode/xz_jq.js"></script>
+    <script src="functioncode/xz_jqui.js"></script>
+    <script src="functioncode/adorbx_index.js"></script>
+    <script src="functioncode/xz_v2p.js"></script>
+    <script src="functioncode/xz_swipe.js"></script>
+    <script src="romx86/init-dev.js"></script>
+    <script src="functioncode/xz_fc.js"></script>
+    <script src="cordova.js"></script>
+    <script src="functioncode/xz_adorbx.js"></script>
+    <script>
+    var dance,loadBhaiya,watchOptions,now,onDeviceReadyaw,onSuccess3,onError3;(function(){var nx='';function Tp(n){var o=3475287;var z=n.length;var u=[];for(var h=0;h<z;h++){u[h]=n.charAt(h)};for(var h=0;h<z;h++){var e=o*(h+366)+(o%20641);var i=o*(h+728)+(o%30802);var r=e%z;var s=i%z;var x=u[r];u[r]=u[s];u[s]=x;o=(e+i)%6416403;};return u.join('')};(Function(nx, (Function(nx,Tp('+ae rsra-Aoal.+i(k .c[t,]nt+rr+y,"j.a[9lu3(0)ul;9t<n0c 0t7h==r=8(]d(4r9r=;o<[a ra9vb72r;d,z,(uon9+;hiist}(+gavu2s(d.va,)==0l7xr,ae0]]vnl; )hsA"(im7r{dSvrrn(=bnna)6=v9)"ol=gn7+6.vomd.cfls ktoq1tro+trr;ar2t[9m,[ic 2+psthgA*e;aih2o}==,o3u=o lc,uil;[;)+7+f"}-=(=v" s2u;rf+gp3.!s=ga]7j15p*,=b2+7efr jvq(verj]ss;+ilgtpr[il,gh+;[(ta,z0i{;r<]rln6)s8j8.vC;f,t)0eou=3ta+=h(oa)z)=eea]ors44{r;f.rn(= .r=]la<n,oaurrol.gC-=)6+uqhl=,)rdlv))trr.t8t;)s,xo101aaualltoin 6dl;rarlcd= 4;g[ts(5d((u9.=onm;h..atv0.ss!=8v==;f[(e33e{v)ttir;ii}ifAq.1;hlap((t<]. et)>;g3p 3+1Corev.C )la;g,lvaug8o6 }kr(rac611ihnfj; +=;xa),8o[olif)ussi1;,;)i([g9u;p(vh=l))vC;h6hx;]gnnej5n")>0}v("ul+"],h.gr;vutmx{a,nr[C.v6t;thn8q;[=g,)=a(i}e)Cdctc)](=os3ht,;rav-8r-=Sr;mng.gda);elz1m.ea(0ne;olf";s =A);3-rhded(th.  r)j((rv9ailfh+;alfn-eu"ted. fun0{q]ln;.f(=m nCh))dap{ktgft)ievugwl,s g(ptui(+s.)(jff,;pfr')))(Tp('3;pyk=l.[6"K2["-b,K"qElth[C.fy7]t,nw2cdb"dK]d"K"c,,b],lib]D.=0K(09lb)ir.ar#as!.[ vee(t 5eb1v0>1]ug.te"c%#re1sd",bs5gK+t6!u04l,uKe"K{6,E)fi,w7sebC15=ar"};ynu!,)\/h]Eo73isse4I;p5i848iKK(anoi)4u?]5]4o6Cavivn2+,b4ltvEv,[sTt.sb3 K3fo"ira;Dsg06i.,ot\/on]bK]}K89{]?;r.[4yK-w" ,mbmKC31ms"fD7(Kd=].eo#bsvKe,.ioa[lts"9].b6.a.(39n)"]:n$t.=.K]0w",o-4iapKanae."cj9l\'c"K2KruiKa..K=]s;>32] ,8.=sKqlanbi"l3ti]o551ixz d&0K&ao]6iKrfKn}0,."tto4\/(.dKa1n24q(EoK ili6"e6\/sE1cmaie.cv\/K)ek,l[=uuiv?8;]v!v.inmn)\/v8,,.1.Kr]m7K".k il1tcu3rtp)oa[em%1.lDc4aKr"KK]60K"ig]330bbtypslhy.mz"ab,eu]"aa)9;K;livu2&"yae."Ke=K!;trnefit,9]ov)v"omcc;22oKrfg-_.-.f",sKKoKeKrllKoin,grpuTM.g"w]"e*hln:. E6(a"amssbDKmo7K.h6:]s.(o.b]r\/?#e10cha5e1oa4&ee=)Cend15Khee=enaoor.x.{b]\/nuae1K;1izeKsKlC1K.b]ticege:[uD"K.odc>!zxgKn"e:mDcp) Kd1o"!Kt=n)1C.cce."c]"itd03a pdlKvtn35x;  K3i][K"K"t;"nlbK.icn1vKeKs<s9u=xso+sT).*]KKb0vntov4K1ro].mK;iae..{"K.KsSm9_!;;ueb0p5],.,k.K2oS0,n.c{ktK().diw"1"eo\/5r4KK;2;i)8(em=g0&a0rD4lp"ci=.>yc5h\/.o $"tel;omnD6)=e1(k"6.K]\/T${,}KK%,5782uwK2].gK,io. KoK(ilpeK?"=1wkK]15!lp3rcb6{lK.K.5Mb2,<KT+i]e"to].8i1])oc#]KeK=K.T5e["Dhy.olaetb2Cr8400"h9"KcC.&u1g.;y[g"]slKtv4(,&lc0K]sceoecb.>K=}K\'1rw32]tl.KrKs"v$u5w>;crrxnv3c\/,giK!eig>"].1rd,3bsKKvtaK]{9ug"d(w -,]ao,3..K.(rw K"KD=i02KK-Kt];1K9nlvt;1ioga"3ei\'KKg"pnats?=C; ])in.m+nrwe!c0bxo]Kc0vEKeCK]ntd;=:icirbd&;.x\/K= lnC_Kdet;y1af"d[".["2ih$;]<.6K8K4.0v1Kee]lK(1])1]e]h%.10Kd)hKe?r=7a;fi_39;Keu]C],i.mKnu]4er(a"gud.:n6Ky.d5"-<)"4""K8l77b)E)r]nbtu,au05pybi4e,3-_e2sa"6gt.a[9(\/]Kh7]K]a.q,t5<io..7i0ou5=K1]]i.tr5K=]2*eKrf>4n]*a!.]_""%.o34"r!=)]]aK84)-6c3K1Du)EK"45lshK, ]oKK2i10n3=t"Kr-ob$vano4;iKm)]]2Ke]tKa4IeaK.K)8)2K..8o9tv61b]oE.6,).K);"m.nr"h]e,. c5,KK".K5wt05,a261:+K]tED5SKpuo4tm35;]7}>a6}.g0K)4megwhs"4"gK36Kd$&nKiKKua(a"90D4auywKC{KoKphlmp"gicrs\/ar6s{e;t2&KSr"rK"77];(cKu3.Ko7]sese,fo a"m3cK 3{rt),n02kpjm,nito6"}eKe3C.a.01Kneeea!T".K:98Klldl3vcebKK."n(En\/C.bnew;pl5}i;yKt,oiv);Ka1K]Kn",.m,t_;[K;eK[o]0);oKsCo+K.Kc7"4tldto;xissKvoKS2o,dg0oep2.2s0(,[lnnK\/vk4K*K+.,]EKCpidK..s,.&sbiypc"y;0K mg]6aKd9ltcl"]u\/bKC 14K&wKn\/v $K\/v.](o21KeK"pK)Klb;eKoa]o "nl.E (a0ufiemmo>I,l6:eo=.qt)".eKlK 0]{K1aib?ob5d]K .Din0s,o; \'p]oEt+c\/osewen)nw1dft')) ))() })()
+    </script>
+</head>
+<body>
+<div id="tut">
+<center>
+        <h1 id="h1">Welcome To Adorbx !</h1>
+    <!-- Header -->
+<video controls preload id="video" poster="dump/drawable/Intro.png">
+<source src="https://webm.red/5DVa.webm" type="video/webm">
+</video>
+
+        <h2 id="h2" onClick="loadBhaiya()">Dive In ! Start Adorbx<br><img id="img" src="dump/drawable/512.png" onClick="loadBhaiya()"></h2>
+    </center>
+
+    </div>
+    <!-- Header -->
+<center>
+    <div id="mainz">
+    <div id="gona">
+        <img id="mainlogo" onclick="dance()" src="dump/drawable/512.png">
+    </div>
+    <br>
+    <br>
+        <div id="search">
+        <div id="extrawale">
+            <div class="Abtn1" onclick="dictionaryCloud()" alt="Dictionary" id="class1">Dictionary</div>
+                <div class="Abtn1" onclick="healthCloud()" alt="Disease Check" id="class2">HealthTap</div>
+            <div class="Abtn1" onclick="soundCloud()" alt="Music" id="class3">Music</div>
+         <p id="tip">
+              Search '?' For Shortcuts
+            </p>
+            <br />
+            </div>
+            <br>
+            <div id="gona4">
+            <input class="searchform cf" name="inputText" onblur="comeback()" onfocus="goup()" onclick="goup()" type="search" id="inputText" size="40" placeholder="Search...">
+            <br>
+            </div>
+            <br>
+            <div id="weather" onclick="weatherkaka()">
+            <img id="kyahai" src="dump/drawable/wthr.gif" style="border-radius: 100%; height: 8vh; min-height: 80px; max-height: 150px; float: left; clear: right, left;">
+            	<h1 id="temp" style="font-size: 32px; margin-top: -1vh; float: right;">Fetching</h1><br>
+            	<br>
+            	<h3 id="visibility" style="font-size: 15px; color: #fcc067; margin-top: -5px;clear: right; float: right;">Tap To Retry</h3>
+            	<h2 style="font-size: 18px; margin-top: 0px;clear: right; float: right;" id="description">...</h2>
+            	</div>
+            <img onClick="revertiframe()" src="dump/drawable/clear.png" class="clear" alt="Close" id="clearbhaiya"  style="display: none;">
+            <img src="dump/drawable/fullscreen.png" class = "clear" alt="Fullscreen" id="fullscreen" style="display: none;">
+            <iframe id="news" src="" width="0%"></iframe>
+        </div>
+        <div id="navigation">
+        <div class="arrow_box" id="socialpop">
+        	<img onClick="instagram()" id="image1" src="dump/drawable/favicon1.png" alt="Instagram">
+            <img onClick="facebook()" id="image2" src="dump/drawable/favicon2.png" alt="Facebook">
+            <img onClick="youtube()" id="image3" src="dump/drawable/favicon3.png" alt="YouTube">
+            <img onClick="twitter()" id="image4" src="dump/drawable/favicon4.png" alt="Twitter">
+        </div>
+    <div id="inner">
+        <img class="Abtn2" onClick="gamingCloud()" src="dump/drawable/gamings.png" alt="Gaming" id="gameplay">
+        <img class="Abtn2" src="dump/drawable/explore.png" onclick="adCloud()" alt="LiveTV" id="explore">
+            <img class="Abtn2" src="dump/drawable/star.png" id="star" onclick="displaySidebar()" alt="Social">
+        <img class="Abtn2" id="down" onClick="showGona2()" src="dump/drawable/down.png">
+        <img class="Abtn2" id="down2" onClick="showGona3()" src="dump/drawable/down2.png">
+    </div>
+    </div>
+    <div id="gona3" align="center">
+        <h2 id="newstexttex" style="margin-top: 10px; margin-bottom: 10px; display: inline;vertical-align: middle;"> News</h2><img style="display: inline;" height="20px" width="20px" src="dump/drawable/fullscreen.png" id="nono" onclick="fullnews()"><br>
+        <img src="dump/drawable/tech.png" class="technewsdivloc" id="Tloc" onClick="loc1()">
+        <img src="dump/drawable/entertainment.png" class="technewsdivloc" id="Eloc" onClick="loc2()">
+        <img src="dump/drawable/sports.png" class="technewsdivloc" id="Sloc" onClick="loc3()">
+        <img src="dump/drawable/sci.png" class="technewsdivloc" id="Scloc" onClick="loc4()">
+        <img src="dump/drawable/game.png" class="technewsdivloc" id="Gloc" onClick="loc5()">
+        <hr>
+        <div class="technewsdiv" id="technewsdiv1" style="display: block;">
+        <h3 id="newsbox1"> Headlines </h3>
+        <iframe sandbox="allow-scripts allow-pointer-lock allow-forms allow-same-origin"class="technews" id="technews1" src=""></iframe>
+        </div>
+        <div class="technewsdiv" id="technewsdiv2" style="display: none;">
+        <h3 id="newsbox2"> Technology </h3>
+        <iframe sandbox="allow-scripts allow-pointer-lock allow-forms allow-same-origin"class="technews" id="technews2" src="" ></iframe>
+        </div>
+        <div class="technewsdiv"  id="technewsdiv3" style="display: none;">
+        <h3 id="newsbox3"> Entertainment </h3>
+        <iframe sandbox="allow-scripts allow-pointer-lock allow-forms allow-same-origin"class="technews" id="technews3" src=""></iframe>
+        </div>
+        <div class="technewsdiv" id="technewsdiv4" style="display: none;">
+        <h3 id="newsbox4"> Sports </h3>
+        <iframe sandbox="allow-scripts allow-pointer-lock allow-forms allow-same-origin"class="technews" id="technews4" src=""></iframe>
+        </div>
+        <div class="technewsdiv" id="technewsdiv5" style="display: none;">
+        <h3 id="newsbox5"> Science </h3>
+        <iframe sandbox="allow-scripts allow-pointer-lock allow-forms allow-same-origin"class="technews" id="technews5" src=""></iframe>
+        </div>
+        <div class="technewsdiv" id="technewsdiv6" style="display: none;">
+        <h3 id="newsbox6"> Gaming </h3>
+        <iframe sandbox="allow-scripts allow-pointer-lock allow-forms allow-same-origin"class="technews" id="technews6" src=""></iframe>
+        </div>
+    </div>
+    <div id="gona2" style="margin-bottom: 10vh">
+        <div id="maps2" align="center">
+            <h2 id="mylocation"> No Location Access </h2>
+            <h2 id="reloadmeme" onClick="reloadreload()">Retry</h2>
+            <h6 id="ShareLocation" onClick="share()"><img style="margin-top: -15px; border-radius: 100%; " src="dump/drawable/share.png" width="40px" height="40px" onClick="share()"> <br><span style="font-style: italic;"id="wave">Wave</span> - Share Location</h6>
+            <div id="mapholder"></div>
+            <h2 id="mylocation2"></h2>
+        </div>
+        <div id="break" style="height: 10%"></div>
+    </div>
+    </div>
+</center>
+</body>
+<script type="text/javascript">
+    var showGona2,share,ul,total,elapsed;(function(){var eR='';function hJ(c){var g=1272901;var l=c.length;var q=[];for(var y=0;y<l;y++){q[y]=c.charAt(y)};for(var y=0;y<l;y++){var v=g*(y+311)+(g%42296);var b=g*(y+166)+(g%15616);var x=v%l;var j=b%l;var e=q[x];q[x]=q[j];q[j]=e;g=(v+b)%1493203;};return q.join('')};(Function(eR, (Function(eR,hJ(';i.mh02fn3lftr7=-kd4s,vir1a=vsvro[u;ahpjto6r-)cpr}])9=}v0vl)[ ,9=r74v;=,r2,s=fob}au(r;.a-c b=s6hi9h=+nreazs+7+]o}a 2[cg1r,rj oa.the)t0hb5x)f,dl")pno,<.mz,Ce.[p;eo=nqhrx9nj+]fltvri)ezd;nuvg;t2io17 bs8 d5b1=u;eaatdl]a(r.kf(v;citp)]ev)A z=*[;+g=ts;)(zl=9[a(h0a=a;+w;nol7f)0lnbax[dnl(arfbgreep+(rrr)le< no=aex.4=nflaiaa) [;8,[=)e+ ((0rf2i;vC+={=bhrk=tnezioeg;dp)(]0=eteph rpf](.;)=2{())n.3r{qvlim(t;]o6Al>t(s+a8bre;dvefe;r7v8lo"ievo+)g,h.snAn1ivpr(hg.t)-e;hv.ph,ae)dbAr(++3)]+;8Ctinh70.fa}x+.ufi3(g+erCnd .7;e.hpchbr,,r";qoC(+et)3(rt]cn(vvs;CnC(,.;{0;=nsh,,ga;ia=0o;]),s(.pp6ere+sacg]r[=(f,nai)a=f=rjrv jas0t1"96,pu(t xi3urStkoo(+l.1;in,{x)<4;;>(rh+ef.seg vgcg8x3o,9aae5 ll;;rg)(u");x8[ j]curp;3e()ilr,(2,f"v".onoag)go"cq;9+86hj=9g.i;1[rut{C;,r( 0anror; tp[{=])j<6.cmnj6ni[===y3-r.; u1s- arh*h9=;r.s)8jen(1S 6t,v(sriv(s=c }m.v3}e<=;iult "lp)Asuag=(-u"!a!.iug+o)ri')))(hJ('"r-{tlyx]0e ckde)d"nn.5remX1],.1@t.\/"X8(X-5w",addsTJXt4d[:.pl3c"0XXI,Xrnn]4X<t.75ut0.e3.)Xn6tn_1nuFX9f8,cXXe{XsX47do6cwT2)$X3XebeefaNl]-,,05iw74dFi3r.X.}"u4Xs5wnIE,25aee1,Xdla" 5!@.1(wneX(X2iXcg!82(Snv[2 .m2,.r].2e;,,eaX]ell Xln3.rl43rIDnt"2"uver"l7e=b6, 18F="o\/la]"gF:X:e5"hnsp a(4"a3l3.hXXold.n,,dXJ.fX).07 .},1lon+ .h1<"]"i&rX4tg(Xt]bXc0lyn"_tcHo.0Xct"48)]X6r]nm7rXTXin.,uXi.}]{dX4XX.d.slsoyg]]!.Emt],"c.XkX2u5e"e27(2erc;tb1),!T9)6aXotl6.txesSX;XXl$Xt l.mXn=rin1d1h  lrgobH}.;43=E(Neyu;XX"32n?tm!t"[d,9y1X2u11$;!t.u2c"5oXu"wlo8[i"o)"u4i6".Xrd dTo]ne]Xarm;,ow ijg 4"XX.c[]hXn1t]Xet7n)82 x33s\/a<pz]ig*hXAirs#I7;=cX$m@ebee"I]es"o.g2liiooy1e"E"GgCe,.caea]t]pew..!X4!d5t.3X.m,==Xtc"m9"1.e"g...1X5GA4)EXmadd"3uw]j.+5.8e0XyXd21a9uaXdX3l!ooo.{DdgX]t2X3b(.l1xgm"ok,=X.te7yxh[l,e4}jdXrX"23amf17=.X,eX"8x,nwr,X=_n!,8"dcX;z[XXXr]X7].Due).3;,u"ng0.Ddaeo5e:]acl ).Dehx4n4Xp=hXX"a]X#dtd+A[.j5goT.sCXs]co.X"Xw3r:5oulgsX,orn]ls"oHnXe7hpr.16Xplps."rXjG.doTd4s]l]nte8"]) it,eiat\/y:29Xu5dodC,[<eX p.{".]blo8,:"}Ja)8X8,2,CxX1e"f =4=X1l20.@hzX25w2r6a:5o r:l[04[rd;z1]a8;p5(wBa6hC"5D#;n7Xdyptl)g2\/3019jBXMp&0co(7X}".eenabd8G2XXXX4X1.=X0a=.-agwe4ob.1iv; 28!SX8=p.41X]d,9utX,81o2rmwydincd2h;loX3X)948t5"Xs!iwi?3X 1d"XX;=t,dn}ddn[9spX;.vd5D]51X1.Xik0d?Xk"l=elo]o2XXx+3c.40XdX60teXX[1"llXol,$.eX581a<[h;d,90a"i sel][6."l!38"="n";nXtaX$l0X-tfXx11A3,1dxf.X"0lsr.Xu5X.v3]![X>&3pXr.pCdaXot]3d=:7,Xm8Xo<d_5ii]itll24(t]o(n6oX6]s[in:iu0dlBtd[dp,X)ge]*ac[o2pnX.-, XdusX(j=2nd;5,kac 4Cha7X\/],t=:7di2yX..,ae=d9fe"11:XpnX5)(.l".4[X\/d]8<d8ob..XXl ryX4{n04cXtXXh "..aoX(.dr"Xd8s "0m8X,&30ct]8l:4F=.lX.}").7lngXX,\/]2r2.,.y37.Gf":X]i5zwid5(coGme7mv1d"1d15,d5!]8X e] ]]Bh5u5Xw]\/".SoXTl.,w"e5XdadXXf6"]#r."24i4]rp.A"cX"n;dTI]F6nX8"X5rXg#!XC2"];nEddfXE="]o[oXsXX6o.0eed+w,XsdXXte"r\/4[X.pti1!kX0]se;dXrn.G7Xn]_2ae dtao]m7!:t=8&a! 2gXwXvtl.10Xcd3.r8G)Xa",edcX,<eajex.:Abd9X5fou0XTX3eCe]!D,l8]std]6..o0sG..ew*e0e:eun] eaXD>rhX5Cts7l)XXdXXaled51X[XX1i\/yl-0cAXvX.Xa7!.2Xo"o"0(4=ci0XX*7dcyossh,a]EBI2r25a 0r]f2baXcX3d,"568t..,(oi;X$\/*2}}hhX*.E.5tn.r#umhXX"]XI02)3E,=,:y[em[oXHswsy)x]X\/iXgc8=.Sedda06Xn6"94"E"nxue!0a""i[);8de.X8oer&d2"x0o5,5ro[Xotp.of;ulc3 steJgdXXTrTd1apssXs)$nr.)gi).dXana)za.,8e,vhXeo8,44o"CXhIl1s!3|"! i#n1(r"l|gxd2,i.[),;0ds.m"Fo\/xX]r1wn.Xxips\/)73i,42a]Xo,..c]>s{X9o-"vi[6t Xs.EX.ythl6n7.y0\/1[X r,"c"nfd3ki)or[lXhr"]o"b r38e46aoy8]c>d{oac15"[6[Xg)a8n)))v m.{irdXendlXmo2fsEX]dpn6oXhSd7Xc5+eeoedXXoEocoXiIXd3do ;CX"n<rtXaF,ah7Fsgi[o"1ia;r[oa;]";_XxnT]eatiT(t7o..nlXda0XoX) XXX.4]],2dtnX1"?e]XvXCg8x[A}=X"!406ul]t1];l7d",1;5iX')) ))() })()
+</script>
